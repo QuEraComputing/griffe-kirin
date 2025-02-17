@@ -59,3 +59,8 @@ exclude = [
 
 [tool.ruff.lint]
 dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[dependency-groups]
+dev = [
+    "rust-just>=1.39.0",
+]
